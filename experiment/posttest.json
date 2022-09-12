@@ -2,38 +2,124 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the nature of the graph of Temperature vs Length for this experiment.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Parabolic",
+        "b": "Linear",
+        "c": "Hyperbplic",
+        "d": "Sinusoidal"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What are the factors affecting the thermal conductivity?",
+      "answers": {
+        "a": "Density",
+        "b": "Temperature",
+        "c": "Mass",
+        "d": "Both a and b"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The transfer of heat by molecular collision is smallest in",
+      "answers": {
+        "a": "Solids",
+        "b": "Liquids",
+        "c": "Gases",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "For the perfect insulator, coefficient of thermal conductivity is ",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": ""
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+     "question": "Thermal conductivity is defined as the heat flow per unit time",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "When the temperature gradient is unity",
+        "b": "Across the wall with no temperature",
+        "c": "through a unit thickness of the wall",
+        "d": "across unit area where the temperature gradient is unity"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which one is having the lowest thermal conductivity? ",
+      "answers": {
+        "a": "Furnace",
+        "b": "Wool",
+        "c": "saw dust",
+        "d": "Glass wool"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The average thermal conductivity of water and air conform to the ratio",
+      "answers": {
+        "a": "50:1",
+        "b": "25:1",
+        "c": "5:1",
+        "d": "15:1"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
+
   ]
 }
