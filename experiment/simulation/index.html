@@ -198,7 +198,7 @@ function switchscreen(){
       document.getElementById('calculation').style.visibility = "visible";
       document.getElementById('simscreen').style.visibility = "hidden";
       validation();
-      printcomment("<i>Diameter, </i> d = 20mm <br><i> Length interval</i> = 70mm<br><i>Cp</i>  = 4.187kJ/kg-K", 1);
+      printcomment("<i>Diameter, </i> d = 20mm <br><i> Length interval</i> = 70mm<br><i>Cp</i>  = 4.187kJ/kg-K<br><i> Length of shaded area</i> = 300mm", 1);
       printcomment('<span style="color: red; text-align: center;">Warning: Please enter a value rounded upto two decimal points</span>', 2);
     }
     if(imgfilename=="bluebkdulls"){
@@ -218,7 +218,7 @@ function switchscreen(){
       $("#answer1").html(content);
       $("#answer2").html(content);
 
-      printcomment("<i>diameter</i> d = 20mm <br><i> Length interval</i> = 70mm<br><i>Cp</i>  = 4.187kJ/kg-K", 1)
+      printcomment("<i>diameter</i> d = 20mm <br><i> Length interval</i> = 70mm<br><i>Cp</i>  = 4.187kJ/kg-K<br><i> Length of shaded area</i> = 300mm", 1)
       printcomment(" ", 2);
     } 
   }
@@ -374,7 +374,7 @@ function drawModel()
     ctx.font = "15px Comic Sans MS";
     ctx.fillText(t1[5]+" \u00B0C", 470, 170);
     ctx.fillText(t1[6]+" \u00B0C", 460, 320);
-    printcomment("<i>Diameter, </i> d = 20mm <br><i> Length interval</i> = 70mm<br><i>Cp</i>  = 4.187kJ/kg-K", 1)
+    printcomment("<i>Diameter, </i> d = 20mm <br><i> Length interval</i> = 70mm<br><i>Cp</i>  = 4.187kJ/kg-K<br><i> Length of shaded area</i> = 300mm", 1)
     
     drawGradient();
   }
