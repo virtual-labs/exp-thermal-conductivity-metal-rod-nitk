@@ -188,7 +188,7 @@ div#commentboxcorrect
 	border-top-color: #f6ebed;
 	position:absolute;
 	left:30px;
-	top:480px;
+	top:470px;
 	height: 65px;
 	width: 285px;
 	color: green;
@@ -204,7 +204,7 @@ div#commentboxleft
 	border-top-color: #f6ebed;
 	position:absolute;
 	left:28px;
-	top:505px;
+	top:490px;
 	height: 65px;
 	width: 190px;
 	color: #e7722b;
@@ -223,7 +223,7 @@ div#commentboxright
 	border-left-color: #f6ebed;
 	position:absolute;
 	left:313px;
-	top: 505px;
+	top: 490px;
 	height: 65px;
 	width: 190px;
 	color: #e7722b;

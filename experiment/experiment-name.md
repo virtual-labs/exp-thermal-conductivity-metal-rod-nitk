@@ -1,1 +1,1 @@
-## Thermal Conductivity of Metal Rod
+## Thermal Conductivity Of Metal Rod
