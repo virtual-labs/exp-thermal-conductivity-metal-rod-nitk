@@ -10,8 +10,8 @@
 
 | SNo. |      Name       | Institute |
 | :--: | :-------------: | :-------: |
-|  1   | Achintya Kumar  |   NITK    |
-|  2   | Vaibhav Pratap  |   NITK    |
+|  1   | Prasad Mandave  |   NITK    |
+|  2   | Ahemad Daniyal  |   NITK    |
 |  3   |     Akshaya     |   NITK    |
 |  4   | Anusha B Salian |   NITK    |
 
