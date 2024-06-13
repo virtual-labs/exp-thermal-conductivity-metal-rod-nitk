@@ -339,6 +339,7 @@ h1 {
   grid-column: 1/-1;
   position: relative;
   justify-self: center;
+  border-bottom: 0.2rem solid var(--clr-title-background);
 }
 
 #graph {
@@ -356,6 +357,13 @@ h1 {
   background-clip: text;
   color: transparent;
   font-size: 2rem;
+  font-weight: 700;
+}
+.extra-info {
+  grid-column: 1/-1;
+  justify-self: center;
+  color: black;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 .questions {

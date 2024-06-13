@@ -59,6 +59,7 @@ function displayDiv(ele) {
   }
   if (ele.classList.contains("tool-explore")) {
     document.querySelector(".explore").classList.remove("hide");
+    document.querySelector(".extra-info").classList.remove("hide");
     if (temp2 !== 1) {
       drawModel();
       startsim();
@@ -138,8 +139,6 @@ function simperiod() {
     temp1 = 0;
     temp2 = 1;
     watertemp();
-    //printcomment("Click forward button for calculations", 1);
-    //printcomment("Click restart button for doing experienment again", 2);
 
     ctx.clearRect(620, 485, 100, 50);
     t1[6] = t1[6].toFixed(1);
@@ -155,6 +154,10 @@ function simperiod() {
     ).innerHTML = `Wait for  ${steadyState} seconds for steady state`;
     if (steadyState === 0) {
       temp2 = 0;
+      document.querySelector(
+        ".comment"
+      ).innerHTML = `The steady state is achieved
+`;
     }
     // printcomment(
     //   "Wait for " + (5 - Math.round(time1)) + " seconds for steady state",
@@ -399,7 +402,7 @@ function validateAnswer2() {
   if (!answer) {
     correctAnswer.classList.remove("hide");
     unit.innerHTML += " <span class='wrong'>&#x2717;</span>";
-    correctAnswer.innerHTML = `<span class='correct'>Correct Answer </span>= ${tempslope} <sup>&deg;</sup>C/m`;
+    correctAnswer.innerHTML = `<span class='correct'>Correct Answer </span>= ${tempk} W/m.K`;
   } else if (answer) {
     correctAnswer.classList.add("hide");
     unit.innerHTML += " <span class='correct'>&#x2713;</span>";
@@ -419,10 +422,15 @@ function resetAll() {
   th = [45, 45, 45, 45, 45];
   currentVoltage = 0;
   vf = 0;
+  document.querySelector(".correct-answer1").innerHTML = "";
+  document.querySelector(".question-unit1").innerHTML = `<sup>&deg;</sup>C/m`;
+  document.querySelector(".question-input1").value = "";
+  document.querySelector(".correct-answer2").innerHTML = "";
+  document.querySelector(".question-unit2").innerHTML = `W/m.K`;
+  document.querySelector(".question-input2").value = "";
   varinit();
   startsim();
   drawModel();
-  // }
 }
 
 function movetoTop() {
