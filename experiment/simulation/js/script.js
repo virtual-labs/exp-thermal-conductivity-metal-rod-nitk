@@ -419,10 +419,15 @@ function resetAll() {
   th = [45, 45, 45, 45, 45];
   currentVoltage = 0;
   vf = 0;
+  document.querySelector(".correct-answer1").innerHTML = "";
+  document.querySelector(".question-unit1").innerHTML = `<sup>&deg;</sup>C/m`;
+  document.querySelector(".question-input1").value = "";
+  document.querySelector(".correct-answer2").innerHTML = "";
+  document.querySelector(".question-unit2").innerHTML = `W/m.K`;
+  document.querySelector(".question-input2").value = "";
   varinit();
   startsim();
   drawModel();
-  // }
 }
 
 function movetoTop() {
