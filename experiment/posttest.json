@@ -6,14 +6,14 @@
       "answers": {
         "a": "Parabolic",
         "b": "Linear",
-        "c": "Hyperbplic",
+        "c": "Hyperbolic",
         "d": "Sinusoidal"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). If there is a parabolic relationship betweem temperature and length occurs, it is because the rod is heated between the length of the rod and not at the end of the rod.",
+        "b": "Correct, the right answer is (b). The linear relationship between temperature and length in metal rod due to the phenomenon of thermal expansion. When a material is heated, its particles gain kinetic energy and start to vibrate more vigorously. This increased vibration causes the average distance between the particles to increase, leading to an expansion of the material.",
+        "c": "The right answer is (b). If there is a hyperbolic relationship betweem temperature and length occurs, it is because the rod is heated between the length of the rod and not at the end of the rod.",
+        "d": "The right answer is (b). If there is a sinusoidal relationship betweem temperature and length occurs, it is because 2 or more heat sources is given between the length of the rod and at the end of the rod."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -27,10 +27,10 @@
         "d": "Both a and b"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (d). Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape. The density can be a factor but also the temperature. For conductive materials like metal, thermal conductivity generally decreases with increased temperature. Higher density in a material can generally be related to a higher packing density of atoms within the crystal lattice or molecular structure of a material, which can affect its thermal conductivity.",
+        "b": "The right answer is (d). Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape. The Temperature can be a factor but also the density. Higher density in a material can generally be related to a higher packing density of atoms within the crystal lattice or molecular structure of a material, which can affect its thermal conductivity. For conductive materials like metal, thermal conductivity generally decreases with increased temperature.",
+        "c": "The right answer is (d). Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape.",
+        "d": "Correct, the right answer is (d). Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape.The density can be a factor but also the temperature. For conductive materials like metal, thermal conductivity generally decreases with increased temperature. Higher density in a material can generally be related to a higher packing density of atoms within the crystal lattice or molecular structure of a material, which can affect its thermal conductivity."
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -44,10 +44,10 @@
         "d": "None of these"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (c). The transfer of heat by molecular collision is much higher in solids because the solids are highly dense and molecules are packed closely by the intermolecular forces.",
+        "b": "The right answer is (c). The transfer of heat by molecular collision is smaller in liquids but are better than gases because the intermolecular forces between molecules are less compared to solids but are greater than gases.",
+        "c": "Correct, the right answer is (c). The transfer of heat by molecular collision is smaller in gases because the intermolecular forces between molecules are almost neglegible. But the forces can be high if the gas molecules are packed inside the container.",
+        "d": "The right answer is (c). The transfer of heat by molecular collision is smaller in gases because the intermolecular forces between molecules are almost neglegible."
       },
       "correctAnswer": "c",
       "difficulty": "advanced"
@@ -58,13 +58,13 @@
         "a": "0",
         "b": "1",
         "c": "2",
-        "d": ""
+        "d": "infinity"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct, the right answer is (a). For perfect insulator, the corfficient of thermal conductivity is zero because the material won't even conduct and transfer heat even in smaller levels.",
+        "b": "The right answer is (a). For some specific types of plastics, the coefficient of thermal conductivity is 1.",
+        "c": "The right answer is (a). From the available resources, it appears that Marble has a thermal conductivity close to 2 W/m·K.",
+        "d": "The right answer is (a). For the perfect conductor, coefficient of thermal conductivity is infinite."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -78,10 +78,10 @@
         "d": "across unit area where the temperature gradient is unity"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (d). Thermal conductivity is defined as the heat flow per unit time per unit area(A) but also with per unit temperature gradient(∇T) through a unit thickness of the wall.",
+        "b": "The right answer is (d). Thermal conductivity is defined as the heat flow per unit time per unit area(A) per unit temperature gradient(∇T) through a unit thickness of the wall. ",
+        "c": "The right answer is (d). Thermal conductivity is defined as the heat flow per unit time not only through a unit thickness of the wall but with per unit area(A) and per unit temperature gradient(∇T). ",
+        "d": "Correct, the right answer is (d). Thermal conductivity is defined as the heat flow per unit time per unit area(A) per unit temperature gradient(∇T) through a unit thickness of the wall."
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
@@ -95,10 +95,10 @@
         "d": "Glass wool"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (d). The thermal conductivity of a furnace wall material is approximately 0.3 W/m·K. The thermal conductivity of sheep wool is typically between 0.035 and 0.04 W/m·K. The thermal conductivity of sawdust is typically around 0.21 W/m·K. The thermal conductivity of glass wool, which is an insulating material made from fibres of glass arranged into a texture similar to wool, typically ranges between 0.023 and 0.040 W/m·K.",
+        "b": "The right answer is (d). The thermal conductivity of a furnace wall material is approximately 0.3 W/m·K. The thermal conductivity of sheep wool is typically between 0.035 and 0.04 W/m·K. The thermal conductivity of sawdust is typically around 0.21 W/m·K. The thermal conductivity of glass wool, which is an insulating material made from fibres of glass arranged into a texture similar to wool, typically ranges between 0.023 and 0.040 W/m·K.",
+        "c": "The right answer is (d). The thermal conductivity of a furnace wall material is approximately 0.3 W/m·K. The thermal conductivity of sheep wool is typically between 0.035 and 0.04 W/m·K. The thermal conductivity of sawdust is typically around 0.21 W/m·K. The thermal conductivity of glass wool, which is an insulating material made from fibres of glass arranged into a texture similar to wool, typically ranges between 0.023 and 0.040 W/m·K.",
+        "d": "Correct, the right answer is (d). The thermal conductivity of a furnace wall material is approximately 0.3 W/m·K. The thermal conductivity of sheep wool is typically between 0.035 and 0.04 W/m·K. The thermal conductivity of sawdust is typically around 0.21 W/m·K. The thermal conductivity of glass wool, which is an insulating material made from fibres of glass arranged into a texture similar to wool, typically ranges between 0.023 and 0.040 W/m·K."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -112,10 +112,10 @@
         "d": "15:1"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.0257/0.598 ≈ 23.3, which is approximately equal to the ratio 25:1.",
+        "b": "Correct, the right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.0257/0.598 ≈ 23.3, which is approximately equal to the ratio 25:1.",
+        "c": "The right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.0257/0.598 ≈ 23.3, which is approximately equal to the ratio 25:1.",
+        "d": "The right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.0257/0.598 ≈ 23.3, which is approximately equal to the ratio 25:1."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
