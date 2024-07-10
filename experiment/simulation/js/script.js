@@ -59,7 +59,7 @@ function displayDiv(ele) {
   }
   if (ele.classList.contains("tool-explore")) {
     document.querySelector(".explore").classList.remove("hide");
-    document.querySelector(".extra-info").classList.remove("hide");
+    document.querySelector(".extra-info").classList.add("hide");
     if (temp2 !== 1) {
       drawModel();
       startsim();
@@ -72,9 +72,11 @@ function displayDiv(ele) {
       temp1 = 1;
       validation();
       document.querySelector("#info").innerHTML = "Temperature Gradient";
+      document.querySelector(".extra-info").classList.remove("hide");
     } else {
       document.querySelector("#info").innerHTML =
         "Perform the experiment to solve the questions";
+      document.querySelector(".extra-info").classList.add("hide");
       document.querySelector(".graph-div").classList.add("hide");
       document.querySelector(".questions").classList.add("hide");
     }
@@ -158,6 +160,7 @@ function simperiod() {
         ".comment"
       ).innerHTML = `The steady state is achieved
 `;
+      btnReset.removeAttribute("disabled");
     }
     // printcomment(
     //   "Wait for " + (5 - Math.round(time1)) + " seconds for steady state",
@@ -333,6 +336,7 @@ function startsim() {
 function initiateProcess() {
   if (currentVoltage === 0) return;
   btnStart.setAttribute("disabled", true);
+  btnReset.setAttribute("disabled", true);
   voltageButtons.forEach((voltage) => voltage.setAttribute("disabled", true));
   simstate();
 }
@@ -410,6 +414,7 @@ function validateAnswer2() {
 }
 function resetAll() {
   btnStart.setAttribute("disabled", true);
+  btnReset.setAttribute("disabled", true);
   voltageButtons.forEach((voltage) => {
     voltage.removeAttribute("disabled");
     voltage.checked = false;
