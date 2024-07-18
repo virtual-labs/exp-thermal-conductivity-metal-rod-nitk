@@ -1,7 +1,5 @@
 ### Procedure
 
-<div style="text-align:left">
-
 1. Click on the Objective icon <img src="images/objecticon.png" alt="Alt text" style="height:80px; width:80px;"> to view the Objective of the simulation.
 
 ![Alt text](images/Simscreen1.png)
@@ -21,5 +19,3 @@
 ![Alt text](images/solvescreen.png)
 
 6. Calculate the result and click Check button <img src="images/checkButton.png" alt="Alt text" style="height:80px; width:80px;"> to evaluate the result.
-
-</div>
