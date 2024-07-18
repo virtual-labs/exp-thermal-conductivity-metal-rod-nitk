@@ -410,6 +410,7 @@ h1 {
   align-self: center;
 }
 .btn-check {
+  padding: 0.5rem;
   grid-column: 1/-1;
   align-self: center;
 }
@@ -484,7 +485,6 @@ h1 {
   font-weight: 700;
 }
 .btn {
-  padding: 1rem;
   font-weight: 700;
   border: none;
   background-image: linear-gradient(
