@@ -11,6 +11,7 @@ const temperature4 = document.querySelector("#temp4");
 const temperature5 = document.querySelector("#temp5");
 const btnCheck1 = document.querySelector(".btn-check1");
 const btnCheck2 = document.querySelector(".btn-check2");
+const taskTitle = document.querySelector(".task-title");
 
 btnStart.addEventListener("click", initiateProcess);
 btnReset.addEventListener("click", resetAll);
@@ -53,13 +54,16 @@ function displayDiv(ele) {
   });
   if (ele.classList.contains("tool-objective")) {
     document.querySelector(".objective").classList.remove("hide");
+    taskTitle.textContent = "Objective";
   }
   if (ele.classList.contains("tool-description")) {
     document.querySelector(".description").classList.remove("hide");
+    taskTitle.textContent = "Description";
   }
   if (ele.classList.contains("tool-explore")) {
     document.querySelector(".explore").classList.remove("hide");
     document.querySelector(".extra-info").classList.add("hide");
+    taskTitle.textContent = "Experiment";
     if (temp2 !== 1) {
       drawModel();
       startsim();
@@ -68,6 +72,7 @@ function displayDiv(ele) {
   }
   if (ele.classList.contains("tool-practice")) {
     document.querySelector(".practice").classList.remove("hide");
+    taskTitle.textContent = "Solve";
     if (temp2 == 1) {
       temp1 = 1;
       validation();
