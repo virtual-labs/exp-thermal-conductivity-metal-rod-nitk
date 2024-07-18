@@ -361,7 +361,7 @@ function validation() {
   ];
   document.querySelector(".graph-div").classList.remove("hide");
   document.querySelector(".questions").classList.remove("hide");
-  drawgraph("graph", datapoints, "Length in meter", "Temperature in degree C");
+  drawgraph("graph", datapoints, "Length(m)", "Temperature(⁰C)");
   if (currentVoltage == 10) {
     tempslope = slope[0];
     tempk = k[0];
