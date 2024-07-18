@@ -339,9 +339,10 @@ h1 {
   grid-column: 1/-1;
   position: relative;
   justify-self: center;
-  border-bottom: 0.2rem solid var(--clr-title-background);
 }
-
+.canvasjs-chart-credit {
+  display: none;
+}
 #graph {
   height: 30rem;
   width: 30rem;
