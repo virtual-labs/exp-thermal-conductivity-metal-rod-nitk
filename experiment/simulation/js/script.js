@@ -35,7 +35,7 @@ let time2 = 0;
 
 //point tracing section and initial(atmospheric section)
 let t1 = [27.5, 27, 27, 26.5, 27.5, 27, 26.8];
-let th = [55, 55, 55, 55, 55];
+let th = [65, 65, 65, 65, 65];
 let off = [0, 0, 0, 0, 0];
 let slope = [-282.86, -315.71, -354.29];
 let k = [40.83, 37.99, 37.61];
@@ -147,11 +147,11 @@ function simperiod() {
     temp2 = 1;
     watertemp();
 
-    ctx.clearRect(620, 485, 100, 50);
+    ctx.clearRect(650, 500, 100, 100);
     t1[6] = t1[6].toFixed(1);
     ctx.font = "15px Comic Sans MS";
     //ctx.fillText(t1[5]+" \u00B0C", 470, 170);
-    ctx.fillText(t1[6] + " \u00B0C", 650, 500);
+    ctx.fillText(t1[6] + " \u00B0C", 650, 550);
     // printcomment("", 2);
   } else {
     drawGradient();
@@ -183,7 +183,8 @@ function drawGradient() {
   grd1.addColorStop(1, "white");
   // Fill with gradient
   ctx.fillStyle = grd1;
-  ctx.fillRect(115, 314, 70, 98);
+  ctx.clearRect(108, 306, 70, 134);
+  ctx.fillRect(108, 308, 70, 138);
 
   //water simulation
   var w = 150 * time1;
@@ -193,9 +194,9 @@ function drawGradient() {
   grd2.addColorStop(1, "white");
   // Fill with gradient
   ctx.fillStyle = grd2;
-  ctx.fillRect(664, 270, 11, 60);
-  ctx.fillRect(650, 330, 25, 64);
-  ctx.fillRect(639, 330, 11, 115);
+  ctx.fillRect(660, 250, 11, 80);
+  ctx.fillRect(645, 328, 26, 88);
+  ctx.fillRect(634, 328, 11, 160);
 
   //rod gradient
   var x = 160 * time1;
@@ -205,7 +206,7 @@ function drawGradient() {
   grd.addColorStop(1, "white");
   // Fill with gradient
   ctx.fillStyle = grd;
-  ctx.fillRect(185, 338, 452, 50);
+  ctx.fillRect(178, 338, 454, 69);
 
   //thermometer heights add offset
   if (time1 > 0) {
@@ -228,32 +229,32 @@ function drawGradient() {
   ctx.fillStyle = "black";
   ctx.lineJoin = "round";
   ctx.beginPath();
-  ctx.rect(255, 196, 14, 168);
-  ctx.fillRect(259, 350, 6, 8);
-  ctx.rect(325, 196, 14, 168);
-  ctx.fillRect(329, 350, 6, 8);
-  ctx.rect(395, 196, 14, 168);
-  ctx.fillRect(401, 350, 6, 8);
-  ctx.rect(465, 196, 14, 168);
-  ctx.fillRect(469, 350, 6, 8);
-  ctx.rect(535, 196, 14, 168);
-  ctx.fillRect(539, 350, 6, 8);
+  ctx.rect(250, 142, 15, 230);
+  ctx.fillRect(254, 353, 7, 8);
+  ctx.rect(320, 142, 15, 230);
+  ctx.fillRect(324, 353, 7, 8);
+  ctx.rect(390, 142, 15, 230);
+  ctx.fillRect(394, 353, 7, 8);
+  ctx.rect(460, 142, 15, 230);
+  ctx.fillRect(465, 353, 7, 8);
+  ctx.rect(530, 142, 15, 230);
+  ctx.fillRect(535, 353, 7, 8);
 
   //outer body drawing
-  ctx.rect(115, 315, 7, 96);
-  ctx.rect(125, 315, 7, 96);
-  ctx.rect(135, 315, 7, 96);
-  ctx.rect(145, 315, 7, 96);
-  ctx.rect(155, 315, 7, 96);
-  ctx.rect(165, 315, 7, 96);
-  ctx.rect(175, 315, 7, 96);
+  ctx.rect(110, 310, 7, 134);
+  ctx.rect(120, 310, 7, 134);
+  ctx.rect(130, 310, 7, 134);
+  ctx.rect(140, 310, 7, 134);
+  ctx.rect(150, 310, 7, 134);
+  ctx.rect(160, 310, 7, 134);
+  ctx.rect(170, 310, 7, 134);
 
   //thermometer reading
-  ctx.fillRect(262, 350, 1.5, -th[0]);
-  ctx.fillRect(332, 350, 1.5, -th[1]);
-  ctx.fillRect(401, 350, 1.5, -th[2]);
-  ctx.fillRect(472, 350, 1.5, -th[3]);
-  ctx.fillRect(542, 350, 1.5, -th[4]);
+  ctx.fillRect(257, 355, 1.5, -th[0]);
+  ctx.fillRect(327, 355, 1.5, -th[1]);
+  ctx.fillRect(396, 355, 1.5, -th[2]);
+  ctx.fillRect(467, 355, 1.5, -th[3]);
+  ctx.fillRect(537, 355, 1.5, -th[4]);
 
   ctx.stroke();
 }
@@ -269,10 +270,10 @@ function drawModel() {
   background.onload = function () {
     //550,400
     ctx.drawImage(background, 0, 0, 800, 600);
-    ctx.clearRect(110, 300, 70, 110);
+    ctx.clearRect(650, 500, 100, 100);
     ctx.font = "15px Comic Sans MS";
-    ctx.fillText(t1[5] + " \u00B0C", 650, 220);
-    ctx.fillText(t1[6] + " \u00B0C", 650, 500);
+    ctx.fillText(t1[5] + " \u00B0C", 650, 170);
+    ctx.fillText(t1[6] + " \u00B0C", 650, 550);
     // printcomment(
     //   "<i>Diameter, </i> d = 20mm <br><i> Length interval</i> = 70mm<br><i>Cp</i>  = 4.187kJ/kg-K<br><i> Length of shaded area</i> = 300mm",
     //   1
