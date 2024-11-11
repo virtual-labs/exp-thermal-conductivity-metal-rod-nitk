@@ -264,7 +264,7 @@ function drawModel() {
   ctx.clearRect(0, 0, 800, 600); //clears the complete canvas#simscreen everytime
 
   var background = new Image();
-  background.src = "./images//model2.png";
+  background.src = "./images/model2.png";
 
   // Make sure the image is loaded first otherwise nothing will draw.
   background.onload = function () {
