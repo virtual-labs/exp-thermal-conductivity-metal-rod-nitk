@@ -12,7 +12,7 @@
 
    ![Alt text](images/expscreen.png)
 
-4. Select any one voltage value and click on the Start button <img src="images/startButton.png" alt="Alt text" > to perform the experiment, click on the Reset button <img src="images/resetButton.png" alt="Alt text" > to reset the experiment.
+4. Select any one voltage value (to control the heat supplied by the heating element) and click on the Start button <img src="images/startButton.png" alt="Alt text" > to perform the experiment, click on the Reset button <img src="images/resetButton.png" alt="Alt text" > to reset the experiment.
 
 5. After performing the experiment, click on the Solve icon <img src="images/solveicon.png" alt="Alt text" >
 

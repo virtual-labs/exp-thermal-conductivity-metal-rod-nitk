@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-     "question": "Thermal conductivity is defined as the heat flow per unit time",
+      "question": "Thermal conductivity is defined as the heat flow per unit time",
       "answers": {
         "a": "When the temperature gradient is unity",
         "b": "Across the wall with no temperature",
@@ -112,14 +112,13 @@
         "d": "15:1"
       },
       "explanations": {
-        "a": "The right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.0257/0.598 ≈ 23.3, which is approximately equal to the ratio 25:1.",
-        "b": "Correct, the right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.0257/0.598 ≈ 23.3, which is approximately equal to the ratio 25:1.",
-        "c": "The right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.0257/0.598 ≈ 23.3, which is approximately equal to the ratio 25:1.",
-        "d": "The right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.0257/0.598 ≈ 23.3, which is approximately equal to the ratio 25:1."
+        "a": "The right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.598/0.0257 ≈ 23.3, which is approximately equal to the ratio 25:1.",
+        "b": "Correct, the right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.598/0.0257 ≈ 23.3, which is approximately equal to the ratio 25:1.",
+        "c": "The right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.598/0.0257 ≈ 23.3, which is approximately equal to the ratio 25:1.",
+        "d": "The right answer is (b). The average thermal conductivity of water at room temperature (20°C) is approximately 0.598 W/m·K. On the other hand, the average thermal conductivity of air at room temperature (25°C) is approximately 0.0257 W/m·K. Therefore, the ratio of the thermal conductivity of water to air at room temperature is approximately: 0.598/0.0257 ≈ 23.3, which is approximately equal to the ratio 25:1."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
     }
-
   ]
 }
