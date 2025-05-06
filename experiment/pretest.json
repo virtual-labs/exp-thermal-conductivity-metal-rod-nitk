@@ -8,8 +8,8 @@
         "b": "Scalar"
       },
       "explanations": {
-        "a": "The right answer is (a). Heat transfer is a scalar quantity. It has magnitude but no direction. It's important to note that while heat flows from a region of higher temperature to a region of lower temperature, this 'direction' does not make heat a vector quantity. The 'direction' of heat flow is simply a way to describe the behavior of heat, not a mathematical property of the heat itself.",
-        "b": "Correct, the right answer is (a). Heat transfer is a scalar quantity. It has magnitude but no direction. It's important to note that while heat flows from a region of higher temperature to a region of lower temperature, this 'direction' does not make heat a vector quantity. The 'direction' of heat flow is simply a way to describe the behavior of heat, not a mathematical property of the heat itself."
+        "a": "The right answer is (b). Heat transfer is a scalar quantity. It has magnitude but no direction. It's important to note that while heat flows from a region of higher temperature to a region of lower temperature, this 'direction' does not make heat a vector quantity. The 'direction' of heat flow is simply a way to describe the behavior of heat, not a mathematical property of the heat itself.",
+        "b": "Correct, the right answer is (b). Heat transfer is a scalar quantity. It has magnitude but no direction. It's important to note that while heat flows from a region of higher temperature to a region of lower temperature, this 'direction' does not make heat a vector quantity. The 'direction' of heat flow is simply a way to describe the behavior of heat, not a mathematical property of the heat itself."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -62,7 +62,7 @@
       "difficulty": "beginner"
     },
     {
-     "question": "Thermal conductivity of a metal road depends on",
+      "question": "Thermal conductivity of a metal road depends on",
       "answers": {
         "a": "Area of cross section",
         "b": "Temperature gradient",
@@ -95,6 +95,5 @@
       "correctAnswer": "c",
       "difficulty": "intermediate"
     }
-
   ]
 }

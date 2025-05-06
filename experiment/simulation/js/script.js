@@ -37,7 +37,7 @@ let time2 = 0;
 let t1 = [27.5, 27, 27, 26.5, 27.5, 27, 26.8];
 let th = [65, 65, 65, 65, 65];
 let off = [0, 0, 0, 0, 0];
-let slope = [-282.86, -315.71, -354.29];
+let slope = [-282.86, -315.71, -357.143];
 let k = [40.83, 37.99, 37.61];
 
 //temporary or dummy variables for locking buttons
@@ -149,7 +149,7 @@ function simperiod() {
 
     ctx.clearRect(650, 500, 100, 100);
     t1[6] = t1[6].toFixed(1);
-    ctx.font = "15px Comic Sans MS";
+    ctx.font = "20px Comic Sans MS";
     //ctx.fillText(t1[5]+" \u00B0C", 470, 170);
     ctx.fillText(t1[6] + " \u00B0C", 650, 550);
     // printcomment("", 2);
@@ -271,9 +271,9 @@ function drawModel() {
     //550,400
     ctx.drawImage(background, 0, 0, 800, 600);
     ctx.clearRect(650, 500, 100, 100);
-    ctx.font = "15px Comic Sans MS";
+    ctx.font = "20px Comic Sans MS";
     ctx.fillText(t1[5] + " \u00B0C", 650, 170);
-    ctx.fillText(t1[6] + " \u00B0C", 650, 550);
+    // ctx.fillText(t1[6] + " \u00B0C", 650, 550);
     // printcomment(
     //   "<i>Diameter, </i> d = 20mm <br><i> Length interval</i> = 70mm<br><i>Cp</i>  = 4.187kJ/kg-K<br><i> Length of shaded area</i> = 300mm",
     //   1
@@ -389,7 +389,9 @@ function validateAnswer1() {
   let userEnteredValue = Number(
     document.querySelector(".question-input1").value
   );
-  let answer = userEnteredValue === tempslope ? true : false;
+  // let answer = userEnteredValue === tempslope ? true : false;
+  let answer = validateNearToAnswer(tempslope, userEnteredValue);
+
   if (!userEnteredValue) return;
   if (!answer) {
     correctAnswer.classList.remove("hide");
@@ -407,7 +409,8 @@ function validateAnswer2() {
   let userEnteredValue = Number(
     document.querySelector(".question-input2").value
   );
-  let answer = userEnteredValue === tempk ? true : false;
+  // let answer = userEnteredValue === tempk ? true : false;
+  let answer = validateNearToAnswer(tempk, userEnteredValue);
   if (!userEnteredValue) return;
   if (!answer) {
     correctAnswer.classList.remove("hide");
@@ -418,6 +421,19 @@ function validateAnswer2() {
     unit.innerHTML += " <span class='correct'>&#x2713;</span>";
   }
 }
+
+function validateNearToAnswer(exactAnswer, userAnswer) {
+  const tolerance = 0.01; // Define the tolerance level
+  const lowerBound = exactAnswer - tolerance;
+  const upperBound = exactAnswer + tolerance;
+
+  if (userAnswer < lowerBound || userAnswer > upperBound) {
+    return false; // Answer is outside the tolerance range
+  } else {
+    return true; // Answer is within the tolerance range
+  }
+}
+
 function resetAll() {
   btnStart.setAttribute("disabled", true);
   btnReset.setAttribute("disabled", true);
