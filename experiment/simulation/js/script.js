@@ -34,7 +34,8 @@ let time1 = 0;
 let time2 = 0;
 
 //point tracing section and initial(atmospheric section)
-let t1 = [27.5, 27, 27, 26.5, 27.5, 27, 26.8];
+// let t1 = [27.5, 27, 27, 26.5, 27.5, 27, 26.8];
+let t1 = [26, 26, 26, 26, 26, 26, 26];
 let th = [65, 65, 65, 65, 65];
 let off = [0, 0, 0, 0, 0];
 let slope = [-282.86, -315.71, -357.143];
@@ -445,7 +446,7 @@ function resetAll() {
   // if (temp1 == 0) {
   temp2 = 0;
   temp1 = 2;
-  t1 = [27.5, 27, 27, 26.5, 27.5, 27, 26.8];
+  t1 = [26, 26, 26, 26, 26, 26, 26];
   th = [45, 45, 45, 45, 45];
   currentVoltage = 0;
   vf = 0;
