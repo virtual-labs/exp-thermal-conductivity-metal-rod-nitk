@@ -49,8 +49,8 @@ Thus, the thermal conductivity $k$ of metal rod can be evaluated.
 
 <center>
 
-![](images/6.png)
+<!-- ![](images/6.png) -->
 
-$k = - \frac{m*fC_p(T*{11} - T\_{10})}{A\frac{dT}{dx}} = -\frac{Q}{A} \times \frac{dT}{dx} $
+$k = - \frac{m_fC_p(T_{11} - T_{10})}{A\frac{dT}{dx}} = -\frac{Q}{A} \times \frac{dT}{dx} $
 
 </center>
