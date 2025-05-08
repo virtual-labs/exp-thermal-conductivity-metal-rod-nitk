@@ -22,6 +22,7 @@
 
     <link rel="stylesheet" href="css/query.css" />
     <!-- <script defer src="https://code.jquery.com/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
     <script
       defer
       src="https://code.jquery.com/jquery-3.7.0.min.js"
@@ -195,21 +196,22 @@
                     <div class="graph" id="graph"></div>
                   </div>
                   <div class="questions">
-                    <p class="warning"> Please enter a value rounded upto two decimal points</p>
+                    <!-- <p class="warning"> Please enter a value rounded upto two decimal points</p> -->
                     <div class="question-one">
                       <div class="question-title">Temperature Gradient</div>
-                      <p class="question-label">dT/dx = </p>
+                      <p class="question-label">$$\frac{dT}{dx}=$$ </p>
                       <input class="question-input question-input1" type="number"/>
-                      <p class="question-unit question-unit1"><sup>&deg;</sup>C/m</p>
+                      <p class="question-unit question-unit1">$$°C/m$$</p>
                       <p class="correct-answer correct-answer1 hide"></p>
                       <button class="btn btn-check btn-check1">Check</button>
                     </div>
                     <div class="question-two">
                       <div class="question-title">Thermal conductivity of a rod</div>
-                      <div class="question-formula">K = <span style="font-size: large;" class="frac"><sup>-mf.Cp.&#916;T</sup><span>&frasl;</span><sub>A.dT/dx</sub></span> W/m.K</div>
-                      <p class="question-label">K =  </p>
+                      <div class="question-formula">$$ K = \frac{-mfC_pΔT}{A\frac{dT}{dx}} W/m.K$$ </div>
+                      <!-- <div class="question-formula">K = <span style="font-size: large;" class="frac"><sup>-mf.Cp.&#916;T</sup><span>&frasl;</span><sub>A.dT/dx</sub></span> W/m.K</div> -->
+                      <p class="question-label">$$K = $$ </p>
                       <input class="question-input question-input2" type="number"/>
-                      <p class="question-unit question-unit2">W/m.K</p>
+                      <p class="question-unit question-unit2">$$W/m.K$$</p>
                       <p class="correct-answer correct-answer2 hide"></p>
                       <button class="btn btn-check btn-check2">Check</button>
                     </div>
