@@ -1,13 +1,232 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLVE</title>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="./css/mathstyle.css" rel="stylesheet" /><!--Stylesheet to display Math functions -->
+
+    <link rel="stylesheet" href="css/query.css" />
+    <!-- <script defer src="https://code.jquery.com/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://code.jquery.com/ui/1.8.17/jquery-ui.min.js"
+    ></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"
+    ></script>
+    <script defer src="./js/graph.ob.js"></script>
+<script defer src="./js/graph_use.ob.js"></script>
+<script defer src="./js/graph_use2.ob.js"></script>
+  </head>
+  <body>
+    <div class="title-div-container">
+      <div class="title-div">
+        <div class="logo-div">
+          <a href="#"
+            ><img src="images/logo_nitk.png" alt="Logo" class="logo"
+          /></a>
+        </div>
+        <h1>Thermal Conductivity of Metal Rod</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="sidebar">
+        <ul class="tool-menu">
+          <li class="tool-list tool-objective" onclick="displayDiv(this)">
+            <a class="tool-link" title="Objective">
+              <img src="./images/objective.png" alt="Objective" class="icons" />
+            </a>
+            <span>Objective</span>
+          </li>
+          <li class="tool-list tool-description" onclick="displayDiv(this)">
+            <a class="tool-link" title="Description"
+              ><img
+                src="./images/description.png"
+                alt="Description"
+                class="icons"
+            /></a>
+            <span>Description</span>
+          </li>
+
+          <li class="tool-list tool-explore" onclick="displayDiv(this)">
+            <a class="tool-link" title="Explore"
+              ><img src="./images/explore.png" alt="Explore" class="icons"
+            /></a>
+            <span>Experiment</span>
+          </li>
+          <li class="tool-list tool-practice" onclick="displayDiv(this)">
+            <a class="tool-link" title="Solve"
+              ><img src="./images/solution.png" alt="solution" class="icons"
+            /></a>
+            <span>Solve</span>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="main-section">
+          <div id="simulation" class="main__task-div">
+            <h3 class="task-title">Objective</h3>
+
+            <div class="canvas__div">
+              <div class="task-screen objective">
+                <!-- <h3 class="objective__title">Objective</h3> -->
+                <p class="objective__main">
+                  To determine the coefficient of thermal conductivity of the
+                  metal rod and to measure the temperature gradient along the
+                  length of the metal rod.
+                </p>
+              </div>
+              <div class="task-screen description hide">
+                <!-- <h3 class="description__title">Description</h3> -->
+                <div class="description-conatiner">
+                  <img src="./images/model.png" alt="apparatus" class="model" />
+                  <div class="model-detail">
+                    <p>Diameter, d = 20mm</p>
+                    <p>Length Interval = 70mm</p>
+                    <p>C<sub>p</sub> = 4.18kJ/kg-K</p>
+                    <p>Length of shaded area = 300mm</p>
+                  </div>
+                  <p>The experiment is conducted in standard room temperature and pressure also ensuring there is a constant flow rate (Vf) of water.</p>
+                </div>
+              </div>
+              <div class="task-screen explore hide">
+                <div class="explore-controls">
+                  <div class="voltage-set">
+                    <p>Set voltage</p>
+                    <button class="btn btn-start" disabled>Start</button>
+                    <button class="btn btn-reset" disabled>Reset</button>
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="radio"
+                      name="voltage"
+                      id="v10"
+                      value="10"
+                      class="voltage"
+                    />
+                    <label for="v10" class="voltage_label">10V</label>
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="radio"
+                      name="voltage"
+                      id="v20"
+                      value="20"
+                      class="voltage"
+                    />
+                    <label for="v20" class="voltage_label">20V</label>
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="radio"
+                      name="voltage"
+                      id="v30"
+                      value="30"
+                      class="voltage"
+                    />
+                    <label for="v30"  class="voltage_label">30V</label>
+                  </div>
+                  <div class="temperature-set">
+                    <div class="temperature-group">
+                      <span class="temp-text">Vf(cc/min)</span>
+                      <span class="temp-val" id="vfspinner">10</span>
+                    </div>
+                    <div class="temperature-group">
+                      <span class="temp-text">Temp1(&deg;C)</span>
+                      <span class="temp-val" id="temp1">10</span>
+                    </div>
+                    <div class="temperature-group">
+                      <span class="temp-text">Temp2(&deg;C)</span>
+                      <span class="temp-val" id="temp2">10</span>
+                    </div>
+                    <div class="temperature-group">
+                      <span class="temp-text">Temp3(&deg;C)</span>
+                      <span class="temp-val" id="temp3">10</span>
+                    </div>
+                    <div class="temperature-group">
+                      <span class="temp-text">Temp4(&deg;C)</span>
+                      <span class="temp-val" id="temp4">10</span>
+                    </div>
+                    <div class="temperature-group">
+                      <span class="temp-text">Temp5(&deg;C)</span>
+                      <span class="temp-val" id="temp5">10</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="comment"></p>
+
+                <canvas
+                  id="simscreen"
+                  width="800"
+                  height="600"
+                  class="canvas"
+                ></canvas>
+                </div>
+                <div class="task-screen practice hide">
+                  
+                  <p id="info">Temperature Gradient</p>
+                  <p class="extra-info hide">Move the cursor to the graph to see the points</p>
+                  <div class="graph-div">
+                    <div class="graph" id="graph"></div>
+                  </div>
+                  <div class="questions">
+                    <!-- <p class="warning"> Please enter a value rounded upto two decimal points</p> -->
+                    <div class="question-one">
+                      <div class="question-title">Temperature Gradient</div>
+                      <p class="question-label">$$\frac{dT}{dx}=$$ </p>
+                      <input class="question-input question-input1" type="number"/>
+                      <p class="question-unit question-unit1">$$°C/m$$</p>
+                      <p class="correct-answer correct-answer1 hide"></p>
+                      <button class="btn btn-check btn-check1">Check</button>
+                    </div>
+                    <div class="question-two">
+                      <div class="question-title">Thermal conductivity of a rod</div>
+                      <div class="question-formula">$$ K = \frac{-mfC_pΔT}{A\frac{dT}{dx}} W/m.K$$ </div>
+                      <!-- <div class="question-formula">K = <span style="font-size: large;" class="frac"><sup>-mf.Cp.&#916;T</sup><span>&frasl;</span><sub>A.dT/dx</sub></span> W/m.K</div> -->
+                      <p class="question-label">$$K = $$ </p>
+                      <input class="question-input question-input2" type="number"/>
+                      <p class="question-unit question-unit2">$$W/m.K$$</p>
+                      <p class="correct-answer correct-answer2 hide"></p>
+                      <button class="btn btn-check btn-check2">Check</button>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__task-div footer">
+            <p>Copyright © SOLVE The Virtual Lab @ NITK Surathkal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer src="js/script.js"></script>
+  </body>
 </html>
