@@ -9,13 +9,12 @@
     <li>Holman J. P., Heat Transfer, McGraw Hill Publication, 8th Edition, 1996.</li>
     <li>C. P. Arora, Engineering Heat Transfer, Khanna Publishers, India, 1996.</li>
     <li><a href="https://www.youtube.com/watch?v=P6fx2oMbf6s">https://www.youtube.com/watch?v=P6fx2oMbf6s</a></li>
-    <td>Developers:<br/> 
+<td>Developers:<br/> 
     <ul style="list-style-type: none;">
-     <li>Dr. K V Gangadharan | NITK</li> 
      <li>Dr. Parthasarathy P | NITK</li>
+     <li>Dr. K V Gangadharan | NITK</li> 
     </ul>
-    </br>    
-    Contributors :
+    </br>     Contributors :
     <ul style="list-style-type: none;">
     <li>Prasad Mandave | 181ME147 | NITK</li>
     <li>Ahemad Daniyal | 181ME105 |  NITK</li>
