@@ -1,0 +1,99 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Is heat transfer a scalar or vector quantity?",
+      "answers": {
+        "a": "Vector",
+        "b": "Scalar"
+      },
+      "explanations": {
+        "a": "The right answer is (b). Heat transfer is a scalar quantity. It has magnitude but no direction. It's important to note that while heat flows from a region of higher temperature to a region of lower temperature, this 'direction' does not make heat a vector quantity. The 'direction' of heat flow is simply a way to describe the behavior of heat, not a mathematical property of the heat itself.",
+        "b": "Correct, the right answer is (b). Heat transfer is a scalar quantity. It has magnitude but no direction. It's important to note that while heat flows from a region of higher temperature to a region of lower temperature, this 'direction' does not make heat a vector quantity. The 'direction' of heat flow is simply a way to describe the behavior of heat, not a mathematical property of the heat itself."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What are the units of thermal conductivity?",
+      "answers": {
+        "a": "J/m² sec",
+        "b": "J/m °K sec",
+        "c": "W/m °K",
+        "d": "Option (B) and (C) above"
+      },
+      "explanations": {
+        "a": "The right answer is (d). The unit Joules per square meter per second (J/m²·s) is a unit of heat flux density. Heat flux density, also known as heat flux, heat flow density, or heat flow rate intensity is a flow of energy per unit of area per unit of time. It is used in engineering and physics to describe the rate at which heat energy transfers through a surface.",
+        "b": "The right answer is (d). Yes, J/m °K sec is the unit of thermal conductivity, but remember W/m °K also a unit of thermal conductivity because watt(W) is defined as joules per second (J/sec).",
+        "c": "The right answer is (d). Yes, W/m °K is the unit of thermal conductivity, but remember J/m °K sec also a unit of thermal conductivity because watt(W) is defined as joules per second (J/sec).",
+        "d": "Correct, the right answer is (d). The units J/m °K sec or W/m.K is the unit of thermal conductivity.Thermal conductivity is a measure of a material's ability to conduct heat. It is defined as the amount of heat (in Joules) that is transferred through a certain thickness of a material (in meters) per unit temperature difference (in Kelvin) across the material, per unit time (in seconds)4."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Solids with weakly bounded electrons are excellent heat conductors.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). Transmission of heat depends upon the outermost electrons. Therefore solids with weekly bonded electrons are good conductors of heat.",
+        "b": "The right answer is (a). Transmission of heat depends upon the outermost electrons. Therefore solids with weekly bonded electrons are good conductors of heat."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What happens if the material is heated?",
+      "answers": {
+        "a": "It contracts",
+        "b": "It melts",
+        "c": "It expands",
+        "d": "It bursts"
+      },
+      "explanations": {
+        "a": "The right answer is (c). When the material is heated, melted and cooled, it contracts to form a solid from liquid form. The thermal energy decreases, strengthening the intermolecular forces holding the atoms or molecules together in the liquid state transforming it into solid.",
+        "b": "The right answer is (c). When a material is heated, the kinetic energy of its atoms and molecules increases. If the material continues to be heated and reaches a certain temperature known as its melting point, it can undergo a phase change from a solid to a liquid. This transformation, known as melting, occurs when the thermal energy overcomes the intermolecular forces holding the atoms or molecules together in the solid state.",
+        "c": "Correct, the right answer is (c). When a material is heated, the kinetic energy of its atoms and molecules increases. This causes them to vibrate more vigorously and move about more, usually creating more distance between themselves. This increased movement results in each atom taking up more space, causing the material to expand.",
+        "d": "The right answer is (c). When a material is heated, it can burst or explode due to a couple of reasons: 1) Rapid heating 2) Rapid cooling. But this question asks about the material behaviour while heating."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Thermal conductivity of a metal road depends on",
+      "answers": {
+        "a": "Area of cross section",
+        "b": "Temperature gradient",
+        "c": "Time of flow of heat",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "The right answer is (d). Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape. It measures how well a material can conduct heat.",
+        "b": "The right answer is (d). Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape. It measures how well a material can conduct heat.",
+        "c": "The right answer is (d). Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape. It measures how well a material can conduct heat.",
+        "d": "Correct, the right answer is (d). Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape. It measures how well a material can conduct heat."
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Coefficient of thermal conductivity",
+      "answers": {
+        "a": "Depends upon nature of the material of the body",
+        "b": "Is independent of dimensions of the body",
+        "c": "Both a & b",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "The right answer is (c). The term “coefficient of thermal conductivity” is sometimes used to emphasize that thermal conductivity is a proportionality constant in Fourier's Law for heat conduction. Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape. It measures how well a material can conduct heat.",
+        "b": "The right answer is (c). The term “coefficient of thermal conductivity” is sometimes used to emphasize that thermal conductivity is a proportionality constant in Fourier's Law for heat conduction. Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape. It measures how well a material can conduct heat.",
+        "c": "Correct, the right answer is (c). The term “coefficient of thermal conductivity” is sometimes used to emphasize that thermal conductivity is a proportionality constant in Fourier's Law for heat conduction. Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape. It measures how well a material can conduct heat.",
+        "d": "The right answer is (c). The term “coefficient of thermal conductivity” is sometimes used to emphasize that thermal conductivity is a proportionality constant in Fourier's Law for heat conduction. Thermal conductivity is an intrinsic property of a material, meaning it depends on the nature of the material itself and is independent of its size or shape. It measures how well a material can conduct heat."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+
+/home/runner/work/exp-thermal-conductivity-metal-rod-nitk/exp-thermal-conductivity-metal-rod-nitk/experiment/simulation/js/graph.ob.js
+  1:745  warning  'b' is already defined  no-redeclare
+
+/home/runner/work/exp-thermal-conductivity-metal-rod-nitk/exp-thermal-conductivity-metal-rod-nitk/experiment/simulation/js/graph_line_use.ob.js
+  1:105  warning  'graphline' is defined but never used  no-unused-vars
+  1:165  warning  'CanvasJS' is not defined              no-undef
+
+/home/runner/work/exp-thermal-conductivity-metal-rod-nitk/exp-thermal-conductivity-metal-rod-nitk/experiment/simulation/js/graph_use.ob.js
+  13:10  warning  'drawgraph' is defined but never used  no-unused-vars
+  14:21  warning  'CanvasJS' is not defined              no-undef
+
+/home/runner/work/exp-thermal-conductivity-metal-rod-nitk/exp-thermal-conductivity-metal-rod-nitk/experiment/simulation/js/graph_use2.ob.js
+  12:10  warning  'drawgraph2' is defined but never used  no-unused-vars
+  22:21  warning  'CanvasJS' is not defined               no-undef
+
+/home/runner/work/exp-thermal-conductivity-metal-rod-nitk/exp-thermal-conductivity-metal-rod-nitk/experiment/simulation/js/jquery-3.6.0.js
+     17:44  warning  'module' is not defined                                                    no-undef
+     25:5   warning  'module' is not defined                                                    no-undef
+    142:13  warning  'Symbol' is already defined as a built-in global variable                  no-redeclare
+    717:22  warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+    779:50  warning  Empty block statement                                                      no-empty
+   2185:38  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3205:16  warning  Unnecessary escape character: \/                                           no-useless-escape
+   3507:52  warning  Empty block statement                                                      no-empty
+   4584:21  warning  Empty block statement                                                      no-empty
+   5051:28  warning  Unnecessary escape character: \/                                           no-useless-escape
+   5268:19  warning  Empty block statement                                                      no-empty
+   6564:25  warning  Empty block statement                                                      no-empty
+   9171:17  warning  Empty block statement                                                      no-empty
+   9819:28  warning  'urlAnchor.href' is assigned to itself                                     no-self-assign
+  10269:17  warning  Empty block statement                                                      no-empty
+  11162:39  warning  'define' is not defined                                                    no-undef
+  11163:5   warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-thermal-conductivity-metal-rod-nitk/exp-thermal-conductivity-metal-rod-nitk/experiment/simulation/js/jquery-ui.js
+      9:39  warning  'define' is not defined                                      no-undef
+     11:5   warning  'define' is not defined                                      no-undef
+     14:13  warning  'jQuery' is not defined                                      no-undef
+     21:7   warning  'version' is assigned a value but never used                 no-unused-vars
+    797:7   warning  'widget' is assigned a value but never used                  no-unused-vars
+    822:19  warning  Unnecessary escape character: \+                             no-useless-escape
+    822:21  warning  Unnecessary escape character: \-                             no-useless-escape
+   1365:7   warning  'position' is assigned a value but never used                no-unused-vars
+   1381:7   warning  'data' is assigned a value but never used                    no-unused-vars
+   1410:7   warning  'disableSelection' is assigned a value but never used        no-unused-vars
+   1452:23  warning  Unnecessary escape character: \-                             no-useless-escape
+   1462:39  warning  Unnecessary escape character: \%                             no-useless-escape
+   1462:63  warning  Unnecessary escape character: \%                             no-useless-escape
+   1462:87  warning  Unnecessary escape character: \%                             no-useless-escape
+   1499:61  warning  Unnecessary escape character: \%                             no-useless-escape
+   1499:85  warning  Unnecessary escape character: \%                             no-useless-escape
+   2078:29  warning  Empty block statement                                        no-empty
+   3120:63  warning  Empty block statement                                        no-empty
+   3156:7   warning  'effectsEffectBlind' is assigned a value but never used      no-unused-vars
+   3217:7   warning  'effectsEffectBounce' is assigned a value but never used     no-unused-vars
+   3309:7   warning  'effectsEffectClip' is assigned a value but never used       no-unused-vars
+   3360:7   warning  'effectsEffectDrop' is assigned a value but never used       no-unused-vars
+   3418:7   warning  'effectsEffectExplode' is assigned a value but never used    no-unused-vars
+   3523:7   warning  'effectsEffectFade' is assigned a value but never used       no-unused-vars
+   3560:7   warning  'effectsEffectFold' is assigned a value but never used       no-unused-vars
+   3639:7   warning  'effectsEffectHighlight' is assigned a value but never used  no-unused-vars
+   3683:7   warning  'effectsEffectSize' is assigned a value but never used       no-unused-vars
+   3884:7   warning  'effectsEffectScale' is assigned a value but never used      no-unused-vars
+   3929:7   warning  'effectsEffectPuff' is assigned a value but never used       no-unused-vars
+   3957:7   warning  'effectsEffectPulsate' is assigned a value but never used    no-unused-vars
+   4007:7   warning  'effectsEffectShake' is assigned a value but never used      no-unused-vars
+   4062:7   warning  'effectsEffectSlide' is assigned a value but never used      no-unused-vars
+   4127:7   warning  'effect' is already defined                                  no-redeclare
+   4133:7   warning  'effectsEffectTransfer' is assigned a value but never used   no-unused-vars
+   4209:7   warning  'focusable' is assigned a value but never used               no-unused-vars
+   4214:7   warning  'form' is assigned a value but never used                    no-unused-vars
+   4234:7   warning  'formResetMixin' is assigned a value but never used          no-unused-vars
+   4311:22  warning  Unexpected control character(s) in regular expression: \x1f  no-control-regex
+   4369:7   warning  'keycode' is assigned a value but never used                 no-unused-vars
+   4402:7   warning  'labels' is assigned a value but never used                  no-unused-vars
+   4455:7   warning  'scrollParent' is assigned a value but never used            no-unused-vars
+   4492:7   warning  'tabbable' is assigned a value but never used                no-unused-vars
+   4516:7   warning  'uniqueId' is assigned a value but never used                no-unused-vars
+   4558:7   warning  'widgetsAccordion' is assigned a value but never used        no-unused-vars
+   5187:7   warning  'safeActiveElement' is assigned a value but never used       no-unused-vars
+   5233:7   warning  'widgetsMenu' is assigned a value but never used             no-unused-vars
+   5939:13  warning  Unnecessary escape character: \-                             no-useless-escape
+   5939:15  warning  Unnecessary escape character: \[                             no-useless-escape
+   5939:30  warning  Unnecessary escape character: \^                             no-useless-escape
+   6581:30  warning  Unnecessary escape character: \-                             no-useless-escape
+   6581:32  warning  Unnecessary escape character: \[                             no-useless-escape
+   6581:47  warning  Unnecessary escape character: \^                             no-useless-escape
+   6626:7   warning  'widgetsAutocomplete' is assigned a value but never used     no-unused-vars
+   6648:7   warning  'widgetsControlgroup' is assigned a value but never used     no-unused-vars
+   7239:7   warning  'widgetsCheckboxradio' is assigned a value but never used    no-unused-vars
+   7686:7   warning  'widgetsButton' is assigned a value but never used           no-unused-vars
+   7921:51  warning  Unnecessary escape character: \-                             no-useless-escape
+   8620:23  warning  Empty block statement                                        no-empty
+   9326:18  warning  Unexpected constant condition                                no-constant-condition
+   9623:27  warning  Unnecessary escape character: \-                             no-useless-escape
+  10293:40  warning  Unnecessary escape character: \-                             no-useless-escape
+  10295:32  warning  Unnecessary escape character: \-                             no-useless-escape
+  10435:35  warning  Unnecessary escape character: \-                             no-useless-escape
+  10438:35  warning  Unnecessary escape character: \-                             no-useless-escape
+  10603:7   warning  'widgetsDatepicker' is assigned a value but never used       no-unused-vars
+  10606:7   warning  'ie' is assigned a value but never used                      no-unused-vars
+  10627:7   warning  'widgetsMouse' is assigned a value but never used            no-unused-vars
+  10835:7   warning  'plugin' is assigned a value but never used                  no-unused-vars
+  10868:7   warning  'safeBlur' is assigned a value but never used                no-unused-vars
+  12169:7   warning  'widgetsDraggable' is assigned a value but never used        no-unused-vars
+  13428:7   warning  'widgetsResizable' is assigned a value but never used        no-unused-vars
+  14383:7   warning  'widgetsDialog' is assigned a value but never used           no-unused-vars
+  14902:7   warning  'widgetsDroppable' is assigned a value but never used        no-unused-vars
+  14924:7   warning  'widgetsProgressbar' is assigned a value but never used      no-unused-vars
+  15081:7   warning  'widgetsSelectable' is assigned a value but never used       no-unused-vars
+  15399:7   warning  'widgetsSelectmenu' is assigned a value but never used       no-unused-vars
+  16098:7   warning  'widgetsSlider' is assigned a value but never used           no-unused-vars
+  16890:7   warning  'widgetsSortable' is assigned a value but never used         no-unused-vars
+  17501:33  warning  Unnecessary escape character: \-                             no-useless-escape
+  19078:15  warning  'Globalize' is not defined                                   no-undef
+  19089:11  warning  'Globalize' is not defined                                   no-undef
+  19209:7   warning  'widgetsSpinner' is assigned a value but never used          no-unused-vars
+  19265:25  warning  Empty block statement                                        no-empty
+  19268:25  warning  Empty block statement                                        no-empty
+  19507:38  warning  Unnecessary escape character: \/                             no-useless-escape
+  19507:47  warning  Unnecessary escape character: \[                             no-useless-escape
+  19507:51  warning  Unnecessary escape character: \^                             no-useless-escape
+  20132:7   warning  'widgetsTabs' is assigned a value but never used             no-unused-vars
+  20643:7   warning  'widgetsTooltip' is assigned a value but never used          no-unused-vars
+
+/home/runner/work/exp-thermal-conductivity-metal-rod-nitk/exp-thermal-conductivity-metal-rod-nitk/experiment/simulation/js/jquery.ui.touch-punch.js
+  174:4  warning  'jQuery' is not defined  no-undef
+
+/home/runner/work/exp-thermal-conductivity-metal-rod-nitk/exp-thermal-conductivity-metal-rod-nitk/experiment/simulation/js/jquery.ui.touch-punch.min.js
+  81:4  warning  'jQuery' is not defined  no-undef
+
+/home/runner/work/exp-thermal-conductivity-metal-rod-nitk/exp-thermal-conductivity-metal-rod-nitk/experiment/simulation/js/script.js
+   25:5   warning  'v' is assigned a value but never used      no-unused-vars
+   32:5   warning  'time' is assigned a value but never used   no-unused-vars
+   46:5   warning  'temp1' is assigned a value but never used  no-unused-vars
+   51:10  warning  'displayDiv' is defined but never used      no-unused-vars
+  141:10  warning  'simperiod' is defined but never used       no-unused-vars
+  287:10  warning  'comment1' is defined but never used        no-unused-vars
+  362:3   warning  'datapoints' is not defined                 no-undef
+  371:3   warning  'drawgraph' is not defined                  no-undef
+  371:22  warning  'datapoints' is not defined                 no-undef
+  464:10  warning  'movetoTop' is defined but never used       no-unused-vars
+  465:3   warning  'practiceDiv' is not defined                no-undef
+
+✖ 126 problems (0 errors, 126 warnings)
+
